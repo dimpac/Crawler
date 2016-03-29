@@ -1,0 +1,11 @@
+# Standard sbt ignores
+target/
+src_managed/
+project/
+*.log*
+.idea
+.idea/*
+# ignore deployment configs
+config/*.conf
+config/*.sh
+metastore_db/
